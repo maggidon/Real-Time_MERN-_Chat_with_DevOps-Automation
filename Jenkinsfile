@@ -16,7 +16,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo " Checking out code..."
-                git url: 'https://github.com/mohdshafaquearif/Let-s-Talk.git', branch: 'master'
+                git url: 'https://github.com/maggidon/Real-Time_MERN-_Chat_with_DevOps-Automation.git', branch: 'master'
             }
         }
 
